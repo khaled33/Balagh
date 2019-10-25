@@ -1,0 +1,87 @@
+<resources>
+    <string-array name="gouvernement">
+        <item>Ariana</item>
+        <item>Tunis</item>
+        <item>Ben Arous</item>
+        <item>La Manouba</item>
+        <item>Sfax</item>
+        <item>Sousse</item>
+        <item>Béja</item>
+        <item>Bizerte</item>
+        <item>Gabès</item>
+        <item>Gafsa</item>
+        <item>Jendouba</item>
+        <item>Kairouan</item>
+        <item>Kasserine</item>
+        <item>Kébili</item>
+        <item>Le Kef</item>
+        <item>Mahdia</item>
+        <item>Médenine</item>
+        <item>Monastir</item>
+        <item>Nabeul</item>
+        <item>Sidi Bouzid</item>
+        <item>Siliana</item>
+        <item>Tataouine</item>
+        <item>Tozeur</item>
+        <item>Zaghouan</item>
+    </string-array>
+    <string name="app_name">Ballagh</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Ballagh</string>
+    <string name="title_notifications">Contact</string>
+    <string name="title_activity_spalsh_screen" translatable="false">SpalshScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="addresss">Avenue du Roi Abdulaziz Al Saoud Manar 2 2092 Tunis Tunisie</string>
+    <string name="www_credif_org_tn">www.credif.org.tn</string>
+    <string name="title_activity_balagh">BalaghActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="violence_verbale">Violence verbale</string>
+    <string name="violence_psychologique">Violence psychologique</string>
+    <string name="violence_physique">Violence physique</string>
+    <string name="violence_sexuelle">Violence Sexuelle</string>
+    <string name="horaire">Horaire</string>
+    <string name="type_violence">Type de Violence</string>
+    <string name="matin">Le Matin</string>
+    <string name="apr_s_midi">Après-midi</string>
+    <string name="soir">Le Soir</string>
+    <string name="victime">Victime</string>
+    <string name="t_moin">Témoin</string>
+    <string name="sexe_victime">Sexe victime</string>
+    <string name="femme">Femme</string>
+    <string name="homme">Homme</string>
+    <string name="tranche_d_ge_victime">Tranche d’âge du victime</string>
+    <string name="moins_de_18_ans">Moins de 18 ans</string>
+    <string name="de_18_ans_35_ans">De 18 à 35 ans</string>
+    <string name="de_35_65_ans">De 35 à 65 ans</string>
+    <string name="_65_ans_et_plus">65 ans et plus</string>
+    <string name="type_transport">Type transport</string>
+    <string name="bus">Bus</string>
+    <string name="m_tro">Métro</string>
+    <string name="train">Train</string>
+    <string name="taxi_commun">Taxi commun/Autre</string>
+    <string name="sexe_agresseur">Sexe agresseur</string>
+    <string name="tranche_d_age_agresseur">Tranche d\'âge de l\'agresseur</string>
+    <string name="declareur">"Le Déclareur "</string>
+    <string name="chek_internet">Vous n\'êtes pas connectés à Internet</string>
+    <string name="envoi_msg">Envoi message</string>
+    <string name="att_msg">Veuillez patienter…</string>
+    <string name="message_envoi">Message envoyé</string>
+    <string name="description">Description</string>
+    <string name="sujet">Sujet</string>
+    <string name="email">Email</string>
+    <string name="remplir_formulaire">Veuillez Remplir Votre Formulaire</string>
+    <string name="champs_obligatoir">Champ obligatoire</string>
+    <string name="email_invalide">Adresse mail invalide</string>
+    <string name="termin">TERMINÉ</string>
+    <string name="l_op_ration_balagh_est_termin_avec_succes">L\'opération est terminée avec succès.</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="modifier">Modifier</string>
+    <string name="gouvernement">Gouvernorat</string>
+    <string name="votre_application_sur_les_violences_faites_aux_femmes_dans_les_moyens_de_transport">Votre application sur les violences faites aux femmes dans les moyens de transport</string>
+    <string name="text_home">
+        BALLAGH est une application mobile permettant de signaler toutes formes de violences faites aux femmes et aux filles. Cet outil permet de mesurer le phénomène,
+        d’attirer l’attention des institutions et structures décideurs et de l’opinion publique sur son importance. Outil de veille, BALLAGH n’a pas pour vocation d’assister les victimes ni de poursuivre les agresseurs.
+    </string>
+    <string name="error">Erreur d\'envoi, merci de réessayer plus tard</string>
+</resources>

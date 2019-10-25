@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Balagh3Fragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="420dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/cardview_light_background"
+        app:cardElevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_light_background"
+            android:orientation="vertical"
+            android:paddingBottom="30dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="60dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/champagne"
+                android:freezesText="false"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/type_transport"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp">
+
+                <RadioButton
+                    android:id="@+id/rd_bus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:fontFamily="@font/champagne"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:text="@string/bus"
+                    android:textColor="#90000000"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/rd_met"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:fontFamily="@font/champagne"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:text="@string/m_tro"
+                    android:textColor="#90000000"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/rd_tra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:fontFamily="@font/champagne"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:text="@string/train"
+                    android:textColor="#90000000"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/rd_tax"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:fontFamily="@font/champagne"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:text="@string/taxi_commun"
+                    android:textColor="#90000000"
+                    android:textSize="18sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="280dp"
+                android:layout_height="1px"
+                android:layout_marginTop="264dp"
+                android:background="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo_avec_titre_h" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="140dp"
+                android:layout_marginStart="140dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/cercle" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/cercle" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/cercle_red" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/cercle" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/cercle" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/prec"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/next1"
+                android:elevation="2dp"
+                android:theme="@style/MyButton"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.03"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/suiv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/next2"
+                android:elevation="2dp"
+                android:theme="@style/MyButton"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.97"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

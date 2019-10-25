@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gouvernement">
+        <item>أريانة</item>
+        <item>تونس</item>
+        <item>بن عروس</item>
+        <item>منوبة</item>
+        <item>صفاقس</item>
+        <item>سوسة</item>
+        <item>باجة</item>
+        <item>بنزرت</item>
+        <item>قابس</item>
+        <item>قفصة</item>
+        <item>جندوبة</item>
+        <item>القيروان</item>
+        <item>القصرين</item>
+        <item>ڨبلي</item>
+        <item>الكاف</item>
+        <item>المهدية</item>
+        <item>مدنين</item>
+        <item>المنستير</item>
+        <item>نابل</item>
+        <item>سيدي بوزيد</item>
+        <item>سليانة</item>
+        <item>تطاوين</item>
+        <item>توزر</item>
+        <item>زغوان</item>
+    </string-array>
+    <string name="app_name">Ballagh</string>
+    <string name="text_home">تطبيقة \"بلغ \" هي آلية يقظة  ومناصرة لمزيد تعزيز سبل مناهضة العنف ضد النساء بوسائل النقل العمومي ، تمكن من قياس الظاهرة و إنارة أصحاب القرار وقادة الرأي حول الظاهرة .  تطبيقة \"بلغ\" ليس من مهامها مرافقة الضحية ولا متابعة المتحرش/ المعنّف.</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_dashboard">بلغ</string>
+    <string name="title_notifications">الاتصال</string>
+    <string name="addresss">شارع الملك عبد العزيز آل سعود نهج الشهيد فرحات بن عافية المنار 2 - تونس 2092 الجمهورية التونسية </string>
+    <string name="www_credif_org_tn">www.credif.org.tn</string>
+    <string name="tranche_d_age_agresseur">"عمرالمعتدي تقريباً "</string>
+    <string name="sexe_agresseur">جنس المعتدي</string>
+    <string name="autre">آخر</string>
+    <string name="taxi_commun">تاكسي جماعي/آخر</string>
+    <string name="train">قطار</string>
+    <string name="m_tro">مترو</string>
+    <string name="bus">حافلة</string>
+    <string name="type_transport">وسيلة النقل</string>
+    <string name="_65_ans_et_plus">65 سنة وأكثر</string>
+    <string name="de_35_65_ans">من 35إلى 65 سنة</string>
+    <string name="de_18_ans_35_ans">من 18إلى35 سنة</string>
+    <string name="moins_de_18_ans">أقل من 18 سنة</string>
+    <string name="tranche_d_ge_victime">"عمر الضحية تقريباً "</string>
+    <string name="homme">ذكر</string>
+    <string name="femme">أنثى</string>
+    <string name="sexe_victime">جنس الضحية</string>
+    <string name="victime">الضحية</string>
+    <string name="t_moin">الشاهد</string>
+    <string name="declareur">المبلغ</string>
+    <string name="soir">مساءً</string>
+    <string name="apr_s_midi">بعد الزوال</string>
+    <string name="matin">صباحاً</string>
+    <string name="horaire">توقيت</string>
+    <string name="type_violence">نوعية العنف</string>
+    <string name="violence_sexuelle">عنف جنسي</string>
+    <string name="violence_physique">عنف جسدي</string>
+    <string name="violence_psychologique">عنف نفسي</string>
+    <string name="violence_verbale">عنف لفظي</string>
+    <string name="chek_internet">أنت غير متصل بالإنترنت</string>
+    <string name="envoi_msg">إرسال الرسالة</string>
+    <string name="att_msg">من فضلك انتظر…</string>
+    <string name="message_envoi">رسالة مرسلة</string>
+    <string name="description">وصف</string>
+    <string name="sujet">موضوع</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="remplir_formulaire">يرجى ملء الاستمارة الخاص بك</string>
+    <string name="champs_obligatoir">"حقل اجباري "</string>
+    <string name="email_invalide">عنوان بريد إلكتروني غير صالح</string>
+    <string name="termin">انتهى</string>
+    <string name="l_op_ration_balagh_est_termin_avec_succes">تمت عملية التبليغ بنجاح</string>
+    <string name="envoyer">إرسال</string>
+    <string name="modifier">" تغيير"</string>
+    <string name="gouvernement">الولاية</string>
+    <string name="votre_application_sur_les_violences_faites_aux_femmes_dans_les_moyens_de_transport">تطبيقة بشأن العنف ضد المرأة في وسائل النقل</string>
+    <string name="error">خطأ في الإرسال ، يرجى المحاولة مرة أخرى في وقت لاحق</string>
+</resources>
